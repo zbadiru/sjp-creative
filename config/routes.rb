@@ -1,4 +1,11 @@
 Rails.application.routes.draw do
+  get 'portfolio/index'
+  get 'portfolio/show'
+  get 'portfolio/new'
+  get 'portfolio/create'
+  get 'portfolio/edit'
+  get 'portfolio/update'
+  get 'portfolio/delete'
   get 'user/show'
   get 'user/new'
   get 'user/create'
