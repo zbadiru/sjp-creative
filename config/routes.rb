@@ -1,4 +1,11 @@
 Rails.application.routes.draw do
+  get 'photoshoot/index'
+  get 'photoshoot/show'
+  get 'photoshoot/new'
+  get 'photoshoot/create'
+  get 'photoshoot/edit'
+  get 'photoshoot/update'
+  get 'photoshoot/delete'
   get 'portfolio/index'
   get 'portfolio/show'
   get 'portfolio/new'
